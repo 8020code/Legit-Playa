@@ -19,9 +19,31 @@
     <h1>header</h1>
   </header>
   <div class="container-fluid">
+    <!-- only for md -->
     <div class="row">
-<!-- mobile first meaning html markup order, added classes act on sm+ width with different order -->
-      <div  class="section col-sm-8 order-sm-1 order-md-2 col-md-8">
+      <div class="aside actions top col-12 d-none d-sm-block d-md-none">
+        <div>
+          <a href="#">
+            <img src="images/coke.jfif" alt="Coke">
+            <h6>Doing Coke</h6>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="images/chris-camozzi-ufc-fight-night-109.jpg" alt="fight">
+            <h6>Get into fights</h6>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="images/alco.jpg" alt="Drink heavily">
+            <h6>Drinking</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="section col-sm-8 order-sm-1 order-md-2 col-md-8">
         <div class="article">
           <h2>How I became the CEO of Alphabet Inc.</h2>
           <img src="images/alphabet-1.jpg" alt="Alphabet Inc.">
@@ -66,8 +88,8 @@
         </div>
 
       </div>
-      
-      <div class="aside right col-sm-12 order-sm-3 order-md-3 col-md-2">
+
+      <div class="aside actions col-sm-12 order-sm-3 order-md-3 col-md-2 d-sm-none d-md-block">
         <div>
           <a href="#">
             <img src="images/coke.jfif" alt="Coke">
@@ -88,7 +110,7 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 
   <footer class="container-fluid">
     <h1>footer</h1>
