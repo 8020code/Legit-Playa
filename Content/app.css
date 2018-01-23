@@ -70,3 +70,24 @@ header, footer {
     margin-right: 30px;
     display: inline-block;
 }
+
+@media(max-width: 767px) {
+    .options-list h6 {
+        display: inline;
+        font-size: 18px;
+    }
+    .options-list a {
+        display: block;
+    }
+    .options-list img {
+        width: 33%;
+        height: 33%;
+        /* margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px; */
+                
+    } 
+    .what {
+        text-align: justify;
+    }
+}
